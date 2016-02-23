@@ -1,0 +1,385 @@
+/* CSS Document */
+html {
+  background: transparent !important;
+}
+
+body {
+  background: #E9E9E9;
+  color: #505050 !important; 
+    
+}    
+
+#headerContainer {
+ background: #E9E9E9 !important;
+ border: none !important;
+ padding-bottom: 0px !important;
+} 
+
+div#logoPropylaeum {
+ float: left !important;
+}
+
+div#logoPropylaeum img {
+ width: 70% !important;
+ padding-top: 0.7em;
+}
+
+div#logoUB {
+  float: right !important;
+}
+
+div#logoUB img {
+  width: 90%;
+}
+
+
+.size1of5 {
+  margin-top: 2em;
+  height: auto !important;
+  background: #ffffff !important;
+  border-bottom: 2px solid #404488 !important;
+  padding-bottom: 1em !important;
+}
+
+.size4of5 {
+ background: #ffffff !important;
+ border-bottom: 2px solid #404488 !important;
+ margin-left: 0px !important;
+ min-height: 0em !important;
+} 
+
+.pkp_structure_body {
+ margin-bottom: 0px !important;
+ padding-bottom: 0px !important;
+ border: none !important;
+}
+
+.pkp_structure_main {
+ background: #FFFFFF !important;
+ padding-top: 0px !important;
+ } 
+
+
+.pkp_structure_content {
+  background-color: #404488 !important;
+  border-top: none !important;
+  margin: 0 auto !important;
+  /*width: 60% !important;*/
+
+ 
+} 
+
+.pkp_structure_masthead h1  {
+  padding-top: 10px !important;
+ }
+ 
+.pkp_structure_head .pkp_structure_masthead h1 img { 
+  margin: 0 0 0 10px;
+} 
+
+div.line {
+  background: #ffffff;
+  text-align: left;
+} 
+ 
+ul.pkp_helpers_align_left {
+  display: none;
+}
+
+
+.selectBox-dropdown {
+  display: none !important;
+}
+
+
+/* Suche */
+
+
+
+div.pkp_structure_search.pkp_helpers_align_right {
+  background: #404488 !important;
+  float: left;
+  margin: 0px;
+  width: 210px !important;
+  padding-left: 1.5em !important;
+  }
+
+div.pkp_structure_search input {
+  border: 1px solid #404488;
+  color: #404488 !important;
+}
+
+/*div.pkp_structure_search.pkp_helpers_align_right {
+    margin: 0px 0px 10px;
+    position: relative !important;
+    top: -63px !important;
+    left: 10px !important;
+    width: 235px !important;
+    z-index: 9000;
+} */
+
+
+#topSearchForm {
+ margin-bottom: 1em !important;
+}
+
+#topSearchFormField {
+  width: 73%;
+}
+
+#topSearchFormField label {
+  color: #404488 !important;
+}
+
+select {
+  color: #404488 !important;
+}
+
+button.go  {
+  background: #E9E9E9 !important;
+  border-radius: 0px !important;
+  color: #000000 !important;
+  height: 1.9em;
+  position: relative !important;
+  top: 2px !important;
+  left: -42px !important;
+  
+}
+
+/* Navigation */
+ul.sf-menu sf-js-enabled sf-shadow li:last-child {
+ display: none;
+}
+
+
+ 
+ /* footer */
+               
+
+.pkp_structure_subfoot {
+  background: #E9E9E9 !important;
+
+ }
+
+div.pkp_structure_subfoot > div.pkp_structure_content {
+  background: #E9E9E9 !important;
+  }
+  
+  
+/*** Propylaeum - Vifa-Logo ***/
+
+#vifa-logo {
+  margin-left: 10px;
+  width: 100%;
+}  
+
+/** Seitenleiste **/
+
+.pkp_structure_head_siteNav {
+  border: none !important;
+}  
+
+.pkp_structure_sidebar div.block span.blockTitle,
+.pkp_structure_sidebar div.block span.blockTitle a {
+ 
+ color: #FFFFFF !important; 
+}
+
+.pkp_helpers_dotted_underline {
+ border-bottom: 1px solid #FFFFFF !important;
+}
+
+.pkp_structure_sidebar {
+  border-top: none !important;  
+}
+
+.pkp_structure_sidebar_left {
+  margin-left: 1.5em;
+}
+
+.pkp_form select {
+  border: 1px solid #404488 !important;
+}
+
+/*.pkp_structure_sidebar {
+ background: #404488 !important;
+ padding: 5px;
+}
+
+.pkp_structure_sidebar div.block span.blockTitle {
+ font-family: Arial, Verdana, Helvetica, sans-serif !important;
+ color: #FFFFFF !important; 
+}
+
+.pkp_structure_sidebar div.block a {
+ color: #FFFFFF !important;
+} */
+
+ 
+/* Navigation */
+
+.pkp_structure_navigation {
+ background: #ffffff !important;
+}
+
+.pkp_structure_head_siteNav {
+ color: #404488 !important;
+ } 
+
+.pkp_structure_head_localNav {
+ font-family: Arial, Verdana, Helvetica, sans-serif !important;
+ color: #404488;
+ font: 120%;
+}
+
+.pkp_structure_head_localNav a {
+ text-decoration: none !important;
+} 
+
+#headerTemplateContainer a {
+ color: #404488 !important;
+}
+
+.sf-menu {
+ background: #ffffff !important;
+ margin-bottom: 0em !important;
+ margin-left: 0px !important;
+
+}  
+
+.sf-sub-indicator {
+  background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/arrows-404488.png') no-repeat scroll -10px -100px transparent !important;
+  background-color: transparent !important;
+  top: 0.9em !important; 
+  right: 0.2em !important;
+} 
+
+
+.sf-menu li li {
+  background-color: #E9E9E9 !important;
+}
+
+.sf-menu a {
+  padding: 0.5em 1em 0.4em !important; 
+  }
+
+.pkp_structure_main {
+ border-left: none !important;
+ border-right: none !important; 
+ }
+
+
+/*Buttons */
+.button.ui-state-default, .ui-button {
+ background: #404488 !important;
+ }
+ 
+.ui-button.ui-state-hover {
+  background: #404488 !important;
+}
+
+ 
+ 
+ 
+/* Startseiten-Karussell */
+#featuresCarousel {
+  border: none !important;
+} 
+ 
+ /*Kategorien-Ansicht*/
+ 
+.pkp_structure_main h2 {
+ color: #505050 !important;
+ text-align: left !important;
+ padding-top: 0em !important;
+} 
+
+li.pkp_catalog_monograph {
+  margin-right: 25px !important";
+}
+
+div.pkp_catalog_monographTitle,
+div.pkp_catalog_monograph_authorship,
+div.pkp_catalog_monograph_date {
+  font-size: 0.9em;
+}
+
+div.pkp_catalog_monographTitle  a {
+ color: #404488 !important;
+}
+
+/*Werkansicht*/
+
+
+div#websiteTabs {
+  width: 95% !important;
+}
+
+#bookAccordion a {
+ color: #404488 !important;
+}
+
+li.ui-state-default a {
+ color: #404488 !important;
+}
+
+.pkp_manageCatalog_monograph_title a {
+ color: #404488 !important;
+}
+
+
+/*Werkansicht - Download-Registerkarte */
+
+/*div.publicationFormatName {
+    float: none !important;
+    width: 100% !important;
+}*/
+
+.publicationFormatDownload ul li {margin-bottom:10px;}
+
+.publicationFormatName {
+    width: 70% !important;
+}
+
+
+/* Links */
+a {
+  color: #404488 !important;
+}
+
+a:focus, a:hover, a:active {
+  color: #569BBE !important;
+}
+
+/*Inhaltsformatierungen*/
+h3, h4 {
+  font-family: arial,helvetica,clean,sans-serif !important;
+  text-transform: none !important;
+  font-size: 125% !important;
+}
+
+div#featuresCarousel h2.pkp_helpers_text_center {
+  display: none;
+}
+
+/* via: Katalog - Serie - Editieren => Sprachschalter auf Englisch setzen...*/
+.pkp_catalog_seriesDescription > img {
+  float: right !important;
+}
+
+/***** Tabelle "Tasks" und "Archives" unter 'Dashboard' *****/
+div.pkp_controllers_grid td.first_column {
+  padding-right: 10px !important;
+}
+
+div.pkp_controllers_grid td {
+  padding-right: 15px !important;
+}
+
+/** Pfad zum Propy-Logo:
+ *https://books.ub.uni-heidelberg.de/public/site/images/avoellner/logo.propylaeum_vifa_1.jpg**/
+ 
+ /**Registerkartenreiteranzeige **/
+#stTabswrapper {
+  width: 100% !important;
+}

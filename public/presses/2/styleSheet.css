@@ -1,0 +1,332 @@
+/* CSS Document */
+
+html {
+  background: transparent !important;
+}
+
+body {
+    background: #EDEDED; 
+    font-family: Verdana, Helvetica, Arial, Sans-Serif; 
+    min-height: 100%;
+}
+
+
+/* header */
+
+#headerContainer {
+  background: #EDEDED; 
+  border: none !important;
+  padding-top: 30px !important; 
+  
+}
+
+.size1of5 {
+  border: none !important;
+  height: 120px !important;
+} 
+
+.size4of5 {
+  float: right;
+  margin: 0px 0px 0px 45px;
+  background-image: none !important;
+  background-color: #FFF;
+ /* box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.1) !important;*/
+  position: relative;
+  }
+
+.pkp_structure_masthead {
+  margin-top: 0px !important;
+    
+}
+
+.pkp_helpers_title_padding {
+  padding: 0px !important;
+}
+
+.pkp_structure_head .pkp_structure_masthead h1 img  {
+  max-height: 115px;
+}
+
+/* Service-Navi*/                                                       
+div.pkp_structure_head_siteNav {
+  border: 0px !important;
+  margin-top: 0px !important;
+  height: 24px !important;
+}
+
+.pkp_helpers_flatlist {
+  padding-top: 5px !important;
+}
+
+ul.pkp_helpers_flatlist.pkp_helpers_align_right li a {
+ color:   #606060 !important;
+} 
+
+ul.pkp_helpers_align_left {
+  display: none !important;
+}
+
+
+
+
+/* Suche */
+div.pkp_structure_search.pkp_helpers_align_right {
+  margin: 0px 0px 10px;
+  position: relative !important;
+  top: -59px !important;
+  left: 15px !important;
+  width: 235px !important;
+  z-index: 9000;
+}
+
+
+#topSearchFormField {
+  width: 80%;
+}
+
+button.go  {
+  background: #c6c6c6 !important;
+  border-radius: 0px !important;
+  color: #333 !important;
+  height: 25px;
+  position: relative !important;
+  top: -25px !important;
+  left: 155px !important;
+  
+}
+
+/* Hauptnavi*/
+
+.pkp_structure_head_localNav {          
+  text-transform: none !important;
+  margin-top:  0px !important;
+/*  overflow: hidden;*/
+}
+
+.sf-menu {
+  color: #555 !important;
+  margin-left: 10px !important;
+/*  width: auto !important; */  
+}
+
+.sf-sub-indicator {
+  background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/arrows-0077bb.png') no-repeat scroll -10px -100px transparent !important;
+  background-color: transparent !important;
+  right: 2px !important;
+}
+
+.sf-menu a {
+    border-bottom: 2px solid #07B; /*#C30005; - rot */
+    color: #07B; /*#C30005*/ !important;
+    font-family: 'myriad-pro', sans-serif !important;
+    font-style: italic !important;
+    font-weight: 300;  
+    padding: 0.5em 25px 0.3em 5px !important;
+    margin: 0px 10px 0px 10px !important;
+}    
+
+
+
+
+/*Original Plazierung des Pfeils für .sf-sub-indicator
+position: absolute;
+display: block;
+right: .75em;
+top: 1.05em;
+width: 10px;
+height: 10px;
+text-indent: -999em;
+overflow: hidden; 
+
+a > .sf-sub-indicator {
+top: .8em;
+*/
+
+
+
+
+.pkp_structure_navigation {
+  padding-right: 10px;
+} 
+
+.sf-menu ul {
+ font-size: 0.8em !important;
+ line-height: 1em !important;
+}
+
+.sf-menu li li {
+  background-color: #f5f5f5 !important;
+  }
+
+.sf-shadow ul {
+  background: none !important;
+  padding: 0px 8px 9px 10px !important;
+  margin: 0px 0px 0px 30px !important;
+}
+
+/*.sf-shadow ul, .sf-menu li li {
+  background: #f5f5f5 !important;
+}
+
+.sf-shadow ul {
+  -moz-border-radius: none !important;
+  -webkit-border-radius: none !important;
+  border-radius: none !important;
+  margin: 0px 30px 0px 20px !important;
+} */
+
+/*sidebar*/
+
+div#sidebarContainer {
+  padding-left: 20px;
+}
+
+.pkp_structure_sidebar {
+  border-top: 1px solid #ccc;
+} 
+
+.pkp_helpers_dotted_underline {
+  border-bottom: 1px solid #ccc !important;
+}
+
+.pkp_structure_sidebar div.block {
+  border: none;
+   }
+
+.pkp_structure_sidebar div.block span.blockTitle {
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-transform: none !important;
+}
+
+.pkp_structure_sidebar div.block a {
+  color: #000000 !important;
+}  
+
+.pkp_helpers_dotted_underline {
+    border-bottom: 1px solid #999;
+} 
+   
+/*Struktur*/
+.pkp_structure_body {
+ border: none !important;
+ margin-bottom: 0px !important;
+ padding-bottom: 0px !important;
+} 
+
+/*Content*/
+
+
+/*Startseite Karussell*/
+ #featuresCarousel.pkp_catalog_carousel_wrapper.pkp_helpers_clear.pkp_helpers_dotted_underline {
+ border: none !important;
+ }
+/****/
+
+.pkp_catalog_monographs .pkp_catalog_monograph .pkp_catalog_monograph_thumbnail {
+    padding: 2px;
+}
+
+
+
+.pkp_structure_content {
+ background-color: #FFFFFF;
+ }
+
+.pkp_structure_main {
+  color: #606060;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 13px;
+  border-left: 1px dotted #cccccc !important;
+  border-right: none !important;
+  border-top: none !important;
+  padding: 0px 20px;
+}
+
+h1, h2, h3, h4 {  
+  color: #606060 !important;
+}  
+
+h2, .h2, .title-left {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #606060 !important;
+}
+
+
+a {
+  color: #07B /*#C30005*/ !important;
+}
+
+/* Dashboard */
+
+.ui-tabs-nav {                                                                                              
+  font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+/* footer */
+
+
+
+.pkp_structure_subfoot {
+  background-color: transparent !important;
+  height: 60px !important;
+  position: relative !important;
+}
+
+.pkp_structure_subfoot .pkp_structure_content {
+  border-top: 4px solid #07B;
+ }
+
+.pkp_structure_subfoot ul li {
+    list-style: none outside none !important; 
+}
+
+#partner a {
+  display: block;
+  /*float: left;*/
+  overflow: hidden;
+  margin: 0px 120px 0px 0px;
+  height: 80px;                         
+}  
+
+#partner img {
+  padding: 0px !important;
+}
+.dfg-logo {
+  float: left;
+ }
+
+.ub-logo {
+ float: right;
+ margin-right: 60px;
+}
+
+img.pkp_helpers_align_right {
+  padding-top: 10px;
+ }
+
+img.pkp_helpers_clear {
+ padding-top: 6px;
+}
+
+/* AHN-Logo*/
+#vifa-logo {
+  margin-left: 20px;
+}
+
+
+/* Containerbreite Liste mit Kapitel-Downloads */
+.publicationFormatName {
+  width: 70% !important;
+}
+
+
+/*Dashboard - Tasks */
+div.pkp_controllers_grid td.first_column {
+  padding: 0.5em 1em 0.5em 0 !important;
+}    
+
+/*Backend*/
+div#websiteTabs {
+  width: 95% !important;
+}

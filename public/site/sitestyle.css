@@ -1,0 +1,287 @@
+/* CSS Document */
+/* CSS Document */
+
+/*header*/
+.pkp_structure_head {
+  background-color: transparent !important;
+ } 
+
+.pkp_structure_content {
+  width: 980px;
+ } 
+
+.pkp_helpers_title_padding {
+    padding-top: 4px !important;
+}
+
+#greyBar {
+ height: 5px;
+ background-color: #EFEFEF;
+ margin: 14px 0px 17px 0px;
+} 
+
+.size1of5 {
+    border-bottom: 5px solid #EFEFEF !important;   
+    clear: both !important;
+    width: 100% !important;
+    height: 50px !important;
+    margin-bottom: 18px !important;
+} 
+
+.pkp_structure_masthead {
+  height: auto !important;
+  margin-top: 10px !important;
+}
+
+.size4of5 {
+  background-image: url('http://www.ub.uni-heidelberg.de/nav4/grafik/layout/ub_logo2.gif');
+  background-repeat: no-repeat;
+  width: 100% !important;
+  min-height: 75px !important;
+  margin-left: 5px !important;  
+}
+
+
+#topBarInstitute {
+   height: 10px;
+   background-color: #B5152B;
+   margin-bottom: 15px;
+   min-width: 982px;
+}
+
+#greyBar {
+   height: 5px;
+   background-color: #EFEFEF;
+   margin: 8px 0px 17px 0px;
+}
+
+#headerContainer {
+ 	border-top: 10px solid #B5152B;
+	min-width: 982px;
+  padding-top: 0px !important;
+} 
+
+/* Service-Navi*/
+
+/*Admin-Auswahlliste*/
+.selectBox-dropdown .selectBox-label {
+  width: 99% !important;
+}
+
+/*#contextSwitcher {
+  margin-left: 128px !important;
+} */
+
+.selectBox applyPlugin selectBox-dropdown {
+  width: 99% !important;
+}
+
+
+.pkp_structure_head_siteNav .pkp_helpers_flatlist {
+  border: 0px !important;
+  margin-top: 0px !important;
+  float: right;
+}
+
+div.pkp_structure_head_siteNav {
+  height: 10px !important;
+}
+
+
+ul.pkp_helpers_flatlist pkp_helpers_align_left {
+  margin-top: 0px !important;
+}
+
+.pkp_structure_head_siteNav:first-child {
+  border: 0px !important;
+  margin-top: 0px !important;
+}
+
+/* Suchfeld und Button */
+
+.button.ui-state-default, .ui-button {
+ background: #900900 !important;
+}
+
+
+.button.ui-state-hover, .ui-button.ui-state-hover  {
+background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/button_bg_slice_hover_hell.png') repeat-x scroll 0% 0% #900900 !important; 
+ }
+
+/* Hauptnavi*/
+
+.pkp_structure_head_localNav {
+  font: 160% Arial, Helvetica, sans-serif !important; 
+  margin-top: 18px;
+}
+
+.sf-menu {
+  margin-left: 220px !important;
+  background-color: white;
+}
+
+.sf-menu ul {
+ font-size: 0.8em !important;
+ line-height: 1em !important;
+}
+
+.sf-shadow ul {
+  background: none !important;
+  padding: 0px 8px 9px 10px !important;
+  margin: 0px 0px 0px 30px !important;
+}  
+
+
+.pkp_structure_navigation {
+  margin-left: 0px !important;
+  margin-right: 12px !important;
+} 
+
+.sf-sub-indicator {
+  background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/arrows_900900.png') no-repeat scroll -10px -100px transparent !important;
+  background-color: none !important;
+}
+
+
+/*sidebar*/
+
+.pkp_structure_sidebar {
+  border-top: 1px solid #999;
+} 
+
+.pkp_structure_sidebar div.block {
+  border: none;
+   }
+
+.pkp_structure_sidebar div.block span.blockTitle {
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-transform: none !important;
+}
+
+.pkp_structure_sidebar div.block a {
+  color: #000000 !important;
+}  
+
+.pkp_helpers_dotted_underline {
+    border-bottom: 1px solid #999;
+} 
+   
+/*Struktur*/
+.pkp_structure_body {
+ border: none !important;
+ background-color: transparent;
+} 
+
+
+/*Content*/
+a {
+  color: #900 !important;
+  text-decoration: none !important;
+}
+
+
+.pkp_structure_main {
+  border-left: 2px solid #C9C9C9;
+  border-right: 1px dashed #999;
+  border-top: none !important;
+  min-height: 400px !important;
+  padding: 0px 20px;
+  
+}
+
+h2, .h2, .title-left {
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #2B2B2B !important;
+}
+
+/*Suche oben*/
+
+div.pkp_structure_search.pkp_helpers_align_right {
+  margin: 0px 0px 10px 0px;
+}
+
+.pkp_structure_search #topSearchForm label {
+    left: 10px !important;
+    top: 20px !important;
+}
+
+#topSearchFormField {
+  width: 80%;
+}
+
+form#topSearchForm > fieldset {
+
+  }
+
+
+/* Dashboard */
+
+.ui-tabs-nav {
+  font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+
+
+/* footer */
+
+.pkp_structure_foot {
+	background-color: transparent;
+}
+
+.pkp_structure_subfoot {
+  background-color: #ffffff !important;
+  height: 60px !important;
+  position: relative !important;
+}
+
+.pkp_structure_subfoot .pkp_structure_content {
+  border-top: 5px solid #B5152B;
+ }
+
+.pkp_structure_subfoot ul li {
+    list-style: none outside none !important; 
+}
+
+#partner {
+  /*padding: 0px !important;*/
+   }
+
+
+#partner a {
+  display: block;
+  /*float: left;*/
+  overflow: hidden;
+  margin: 0px 120px 0px 0px;
+  height: 80px;                         
+}  
+
+#partner img {
+  padding: 0px !important;
+}
+
+.ub-logo {
+ float: left;
+ margin: 0 0 0 2px !important; 
+}
+
+.dfg-logo {
+  float: right;
+  margin-right: 60px;
+ }
+
+
+img.pkp_helpers_align_right {
+  padding-top: 10px;
+ }
+
+img.pkp_helpers_clear {
+ padding-top: 6px;
+}
+
+
+/* Containerbreite Liste mit Kapitel-Downloads */
+.publicationFormatName {
+  width: 70% !important;
+}
+    

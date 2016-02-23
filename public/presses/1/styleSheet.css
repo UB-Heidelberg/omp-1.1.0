@@ -1,0 +1,283 @@
+/* CSS Document */
+
+/*header*/
+
+
+.pkp_structure_masthead {
+  height: auto !important;
+  margin-top: 10px !important;
+}
+
+.pkp_helpers_title_padding {
+  padding-top: 4px !important;
+  padding: 0 !important;
+}
+
+.size4of5 {
+  height: 107px !important;
+  background-image: url('/public/site/images/avoellner/heiBOOKS.png');
+  margin-left: 0 !important;
+  background-position: 0 55px !important;
+  /*background-image: url('http://www.uni-heidelberg.de/md/zentral/startseite/logo_neu_204x107.jpg') !important; */  
+}
+
+
+/* Service-Navi*/
+
+/*Admin-Auswahlliste*/
+.selectBox-dropdown .selectBox-label {
+  width: 99% !important;
+}
+
+#contextSwitcher {
+  margin-left: 128px !important;
+}
+
+.selectBox applyPlugin selectBox-dropdown {
+  width: 99% !important;
+}
+
+
+.pkp_structure_head_siteNav .pkp_helpers_flatlist {
+  border: 0px !important;
+  margin-top: 0px !important;
+}
+
+ul.pkp_helpers_align_left {
+  display: none !important;
+}
+
+div.pkp_structure_head_siteNav {
+  height: 10px !important;
+}
+
+
+ul.pkp_helpers_flatlist pkp_helpers_align_left {
+  margin-top: 0px !important;
+}
+
+
+/* Suchfeld und Button */
+
+/*.ui-button.ui-widget.ui-state-defualt.ui-corner-all.ui-button-text-only*/
+button.go  {
+  background: #c6c6c6 !important;
+  border-radius: 0px !important;
+  color: #333 !important;
+  height: 25px;
+    position: relative !important;
+  top: -25px !important;
+  left: 120px !important;
+  
+}
+
+.button.ui-state-default, .ui-button {
+  background: #900900 !important;
+} 
+
+
+.button.ui-state-hover, .ui-button.ui-state-hover  {
+  background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/button_bg_slice_hover_hell.png') repeat-x scroll 0% 0% #900900 !important; 
+ }
+
+/* Hauptnavi*/
+
+.pkp_structure_head_localNav {
+  font: 160% Arial, Helvetica, sans-serif !important; 
+  margin-top: 55px;
+  text-transform: none !important;
+}
+
+.sf-menu ul {
+ font-size: 0.8em !important;
+ line-height: 1em !important;
+}
+
+.sf-menu li li {
+  background-color: #EFEFEF !important;
+  }
+
+.sf-shadow ul {
+  background: none !important;
+  padding: 0px 8px 9px 10px !important;
+  margin: 0px 0px 0px 30px !important;
+}  
+
+
+.pkp_structure_navigation {
+  margin-left: 0px !important;
+  margin-right: 12px !important;
+} 
+
+.sf-sub-indicator {
+  background: url('http://books.ub.uni-heidelberg.de/public/site/images/avoellner/arrows-900900.png') no-repeat scroll -10px -100px transparent !important;
+  background-color: none !important;
+}
+
+
+/*Suche oben*/
+div.pkp_structure_search.pkp_helpers_align_right {
+  margin: 0px 0px 10px;
+  position: relative !important;
+  top: -53px !important;
+  left: 18px !important;
+  width: 180px !important;
+  z-index: 9000;
+}
+
+#topSearchFormField {
+  width: 80%;
+}
+
+/* Trennung Header - Content */
+
+div.line {
+ border-bottom: 5px solid #f5f5f5;
+ margin-bottom: 56px;
+ height: 98px !important;
+}
+
+
+/*sidebar*/
+
+.pkp_structure_sidebar {
+  border-top: 0px !important;
+} 
+
+.pkp_structure_sidebar div.block {
+  border: none;
+  padding-top: 0px !important;
+   }
+
+.pkp_structure_sidebar div.block span.blockTitle {
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-transform: none !important;
+}
+
+.pkp_structure_sidebar div.block a {
+  color: #000000 !important;
+}  
+
+.pkp_helpers_dotted_underline {
+    border-bottom: 1px solid #999;
+} 
+
+/*Struktur*/
+.pkp_structure_body {
+ border: none !important;
+} 
+
+
+/*Content*/
+.pkp_structure_main {
+  border-left: 2px solid #C9C9C9;
+  border-right: 1px dashed #999;
+  border-top: none !important;
+  min-height: 400px !important;
+  padding: 0px 20px !important;
+  
+}
+
+.pkp_structure_main p {
+  font-size: 1.15em !important;
+  line-height: 1.3em !important;
+}
+
+h2 {
+  padding-top: 0px !important;
+}
+
+h2, .h2, .title-left {
+  font-family: Arial, Helvetica, sans-serif !important;
+  
+}
+
+h3, .h3 {
+  color: #333 !important;
+  text-transform: none !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold;
+}  
+
+/* Seite "Contact": setzt die eingegebenen Namen regulär statt fett */
+
+h3+p strong {
+  font-weight: normal !important;
+}
+
+/* Dashboard */
+
+.ui-tabs-nav {
+  font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+
+
+/* footer */
+
+
+
+.pkp_structure_subfoot {
+  background-color: #ffffff !important;
+  height: 60px !important;
+  position: relative !important;
+}
+
+.pkp_structure_subfoot .pkp_structure_content {
+  border-top: 5px solid #B5152B;
+ }
+
+.pkp_structure_subfoot ul li {
+    list-style: none outside none !important; 
+}
+
+#partner a {
+  display: block;
+  overflow: hidden;
+  margin: 0px 120px 0px 0px;
+  height: 80px;                         
+}  
+
+#partner img {
+  padding: 0px !important;
+}
+
+.ub-logo {
+ float: left;
+ margin: 0 0 0 2px !important; 
+}
+
+.dfg-logo {
+  float: right;
+  margin-right: 13%;
+ }
+
+
+img.pkp_helpers_align_right {
+  padding-top: 10px;
+ }
+
+img.pkp_helpers_clear {
+ padding-top: 6px;
+}
+
+
+/* Containerbreite Liste mit Kapitel-Downloads */
+.publicationFormatName {
+  width: 70% !important;
+}
+
+/* Seite Website Settings - Anzeige der Registerkarten */
+#stTabsWrapper {
+  width: 100%;
+}      
+
+.stTabsInnerWrapper {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+  margin-right: 0 !important; 
+}
